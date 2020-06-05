@@ -1,0 +1,7 @@
+var result =0;
+for (var i =1000; i > 17;) 
+{
+result = result + i
+i=i-11;
+}
+console.log("Sum of numbers from 1000-17 with difference of 11 :" + result)
